@@ -1,0 +1,26 @@
+{
+  "name": "hey-api-zod-treeshake",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "openapi-ts": "openapi-ts",
+    "build": "tsdown"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.99.0",
+    "@types/node": "^26.6.5",
+    "oxfmt": "^0.73.0",
+    "tsdown": "^0.23.1",
+    "typescript": "^6.0.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.18.0",
+      "onFail": "download"
+    }
+  }
+}
